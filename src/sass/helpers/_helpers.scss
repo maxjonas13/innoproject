@@ -1,0 +1,42 @@
+.border-box{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.clear{
+  clear: both;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.righttext{
+	text-align: right !important;
+}
+
+.lefttext{
+	text-align: left !important;
+}
+
+.floatleft{
+	 	float: left !important;
+}
+
+.floatright{
+	 	float: right !important;
+}
+
+.bold{
+	font-weight: bold;
+}
+
+.thin{
+	font-weight: 100;
+}
+
+.lastnav{
+	margin-right: 0px;
+}
+

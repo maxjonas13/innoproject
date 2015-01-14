@@ -1,0 +1,28 @@
+@import "../vendors/reset";
+
+
+// revert everything to border-box resizing
+*, *:before, *:after {
+  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; color: $grey;
+ }
+ body{
+ 	position: absolute;
+ 	left: 0;
+ 	right: 0;
+ 	max-width: 1140px;
+ 	min-width: 320px;
+ 	display: block;
+    margin: 0px auto;
+    text-align: center;
+ }
+
+h1{
+	font-size: 2em;
+}
+h2{
+	font-size: 1.5em;
+	color: $darkgrey;
+}
+h3{
+	font-size: 1.1em;
+}

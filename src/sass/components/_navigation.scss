@@ -1,0 +1,84 @@
+header{
+	padding-top: 31px !important;
+}
+.navigation{
+	display: inline;
+	.logodiv .logo{
+		text-align: left;
+		max-width: 200px;
+		max-heigth: auto;
+		position: relative;
+	}
+}
+
+ li{
+ 	float: left;
+ 	margin-top: 4%;
+ 	padding-right: 0px !important;
+ 	padding-left: 28px !important;
+ 	a{
+ 		color: $grey;
+ 		text-decoration: none;
+ 		&:hover{
+ 			color: $primary;
+ 		}
+ 	}
+ 	img{
+ 		margin-right: 80px;
+ 	}
+ }
+
+.navhover:hover{
+	.splitoffhover{
+		display: none !important;
+	}
+	.splitoff{
+		margin-top: -15px !important;
+		display: block !important;
+		li{
+			padding-left: 0px !important;
+		}
+	}
+}
+
+@include media(max-width $screen768){
+	.nav{
+		position: absolute;
+		min-width: 100%;
+		background-color: white;
+	}
+	.smallscreenmenu{
+		margin-top: 20px !important;
+		display: block !important;
+	}
+}
+
+@include media(max-width $screen480){
+	li{
+	 	float: left;
+	 	margin-top: 4%;
+	 	padding-right: 0px !important;
+	 	padding-left: 15px !important;
+	 	img{
+	 		margin-right: 0px;
+	 	}
+	}
+}
+
+@include media(max-width $screen320){
+	.nav{
+		background-color: #FFF;
+		z-index: 10000 !important;
+	}
+	li{
+		min-width: 90%;
+	 	clear: both;	 	
+	 	margin-top: 4%;
+	 	a{
+	 		text-align: right;
+	 	}
+	 	img{
+	 		margin-right: 0px;
+	 	}
+	}
+}
